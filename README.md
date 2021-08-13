@@ -23,9 +23,9 @@ web3
 https://github.com/ethereum/web3.py
 
 ## Installation
-1. Install PHP, bit, and web3
+1. Install PHP, bit, and web3, and clone the moneylegos and hd-wallet-derive github repos
 
-2. Set up and launch Geth testnet "moneylegos", which is available in github package
+2. Set up and launch Geth testnet "moneylegos" using the readme instructions in "moneylegos"
 
 3. Github package contains hd-wallet-derive. cd into the hd-wallet-derive
   
