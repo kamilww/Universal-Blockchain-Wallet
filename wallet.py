@@ -80,7 +80,7 @@ def send_tx(coin, account, to, amount):
     elif coin == ETH:
         signed = account.sign_transaction(tx)
         send = w3.eth.sendRawTransaction(signed.rawTransaction)
-        print(f'{w3.fromWei(amount, "ether")} eth sent from : {account.address} to : {to}') 
+        print(f'{w3.fromWei(amount, "wei")} eth sent from : {account.address} to : {to}') 
         print(f'Signed transaction : {signed.rawTransaction.hex()}')
         print(f'Signed transaction hash : {signed.hash.hex()}')
     
